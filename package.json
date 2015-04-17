@@ -24,7 +24,7 @@
     "async": "^0.9.0",
     "entities": "^1.1.1",
     "request": "^2.36.0",
-    "to-markdown": "^0.0.2",
+    "to-markdown": "^0.0.3",
     "xml2js": "^0.4.2"
   }
 }
