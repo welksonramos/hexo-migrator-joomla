@@ -1,4 +1,4 @@
-# Joomla migrator
+# Joomla migrator [![npm version](https://img.shields.io/npm/v/hexo-migrator-joomla.svg)](https://www.npmjs.com/package/hexo-migrator-joomla) [![depstatus](https://img.shields.io/david/welksonramos/hexo-migrator-joomla.svg)](https://david-dm.org/welksonramos/hexo-migrator-joomla) [![license](https://img.shields.io/npm/l/hexo-migrator-joomla.svg?style=flat)](https://raw.github.com/welksonramos/hexo-migrator-joomla/blob/master/LICENSE)
 
 Migrate your blog from Joomla to [Hexo].
 
