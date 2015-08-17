@@ -3,8 +3,7 @@ async = require('async'),
 entities = require('entities'),
 tomd = require('to-markdown').toMarkdown,
 request = require('request'),
-util = hexo.util,
-file = util.file2;
+file = require('fs');
 
 hexo.extend.migrator.register('joomla', function(args, callback){
 	var source = args._.shift();
