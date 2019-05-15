@@ -66,7 +66,7 @@ hexo.extend.migrator.register('joomla', function(args, callback){
                     categories: category || 'uncategorized',
                     id: +id,
                     date: date,
-                    content: tdS.turndown(excerpt).replace('/\r\n/g', '\n') || tdS.turndown(content).replace('/\r\n/g', '\n'),
+                    content: tdS.turndown(excerpt).replace('/\r\n/g', '\n') + tdS.turndown(content).replace('/\r\n/g', '\n'),
                     layout: status === '0' ? 'draft' : 'post',
                 };
 
