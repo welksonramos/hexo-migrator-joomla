@@ -1,9 +1,11 @@
 var xml2js = require('xml2js'),
 async = require('async'),
 entities = require('entities'),
-tomd = require('to-markdown').toMarkdown,
+TurndownService = require('turndown'),
 request = require('request'),
 file = require('fs');
+
+tdS = new TurndownService({});
 
 hexo.extend.migrator.register('joomla', function(args, callback){
 	var source = args._.shift();
@@ -65,7 +67,7 @@ function(xml, next){
 			categories: category || 'uncategorized',
 			id: +id,
 			date: date,
-			content: tomd(excerpt).replace('/\r\n/g', '\n') || tomd(content).replace('/\r\n/g', '\n'),
+			content: tdS.turndown(excerpt).replace('/\r\n/g', '\n') || tdS.turndown(content).replace('/\r\n/g', '\n'),
 			layout: status === '0' ? 'draft' : 'post',
 		};
 
