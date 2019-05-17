@@ -53,13 +53,14 @@ hexo.extend.migrator.register('joomla', function(args, callback){
                 tags = [];
 
                 if (!title && !slug) return next();
-                if (typeof content !== 'string' || title !== 'string') content = ' ';
 
                 title = entities.decodeHTML(title),
                 date = entities.decodeHTML(date),
                 excerpt = entities.decodeHTML(excerpt),
                 content = entities.decodeHTML(content),
                 count++;
+
+                if (typeof content !== 'string' || typeof title !== 'string') content = ' ';
 
                 var data = {
                     title: title,
