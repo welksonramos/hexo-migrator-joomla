@@ -16,10 +16,7 @@
     "joomla"
   ],
   "author": "Welkson Ramos <welksonr@hotmail.com>",
-  "license": {
-    "type": "MIT",
-    "url": "https://raw.github.com/welksonramos/hexo-migrator-joomla/master/LICENSE"
-  },
+  "license": "MIT",
   "dependencies": {
     "async": "^1.4.2",
     "entities": "^1.1.1",
