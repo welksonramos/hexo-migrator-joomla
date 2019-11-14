@@ -1,9 +1,11 @@
-# Joomla migrator [![npm version](https://img.shields.io/npm/v/hexo-migrator-joomla.svg)](https://www.npmjs.com/package/hexo-migrator-joomla) [![depstatus](https://img.shields.io/david/welksonramos/hexo-migrator-joomla.svg)](https://david-dm.org/welksonramos/hexo-migrator-joomla) [![license](https://img.shields.io/npm/l/hexo-migrator-joomla.svg?style=flat)](https://raw.github.com/welksonramos/hexo-migrator-joomla/blob/master/LICENSE)
+# hexo-joomla-migrator
+[![npm version](https://img.shields.io/npm/v/hexo-migrator-joomla.svg)](https://www.npmjs.com/package/hexo-migrator-joomla) [![depstatus](https://img.shields.io/david/welksonramos/hexo-migrator-joomla.svg)](https://david-dm.org/welksonramos/hexo-migrator-joomla) [![license](https://img.shields.io/npm/l/hexo-migrator-joomla.svg?style=flat)](https://raw.github.com/welksonramos/hexo-migrator-joomla/blob/master/LICENSE)
 
-Migrate your blog from Joomla to [Hexo].
+> Migrate your blog from Joomla to [Hexo](https://hexo.io/).
 
 ## Install
 
+In your blog folder, add this npm dependencie to your project :
 ``` bash
 $ npm install hexo-migrator-joomla --save
 ```
@@ -17,8 +19,6 @@ Execute the following command after installed. `source` is the file path or URL 
 ``` bash
 $ hexo migrate joomla <source>
 ```
-
-[Hexo]: http://zespia.tw/hexo
 
 # License
 
