@@ -3,6 +3,10 @@
   "version": "2.0.0",
   "description": "Joomla migrator plugin for Hexo",
   "main": "index",
+  "scripts": {
+    "contrib:add": "all-contributors add",
+    "contrib:generate": "all-contributors generate"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/welksonramos/hexo-migrator-joomla.git"
@@ -23,5 +27,8 @@
     "request": "^2.88.0",
     "turndown": "^5.0.3",
     "xml2js": "^0.4.22"
+  },
+  "devDependencies": {
+    "all-contributors-cli": "^6.11.0"
   }
 }
