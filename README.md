@@ -1,4 +1,5 @@
 # hexo-joomla-migrator
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)<!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![npm version](https://img.shields.io/npm/v/hexo-migrator-joomla.svg)](https://www.npmjs.com/package/hexo-migrator-joomla) [![depstatus](https://img.shields.io/david/welksonramos/hexo-migrator-joomla.svg)](https://david-dm.org/welksonramos/hexo-migrator-joomla) [![license](https://img.shields.io/npm/l/hexo-migrator-joomla.svg?style=flat)](https://raw.github.com/welksonramos/hexo-migrator-joomla/blob/master/LICENSE)
 
 > Migrate your blog from Joomla to [Hexo](https://hexo.io/).
@@ -23,3 +24,22 @@ $ hexo migrate joomla <source>
 # License
 
 Lincensed under The MIT License (MIT)
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="http://jazg.net"><img src="https://avatars2.githubusercontent.com/u/1109168?v=4" width="100px;" alt="Jorge Zapata"/><br /><sub><b>Jorge Zapata</b></sub></a><br /><a href="https://github.com/welksonramos/hexo-migrator-joomla/commits?author=alimnios72" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

@@ -1,0 +1,24 @@
+{
+  "projectName": "hexo-migrator-joomla",
+  "projectOwner": "welksonramos",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "alimnios72",
+      "name": "Jorge Zapata",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1109168?v=4",
+      "profile": "http://jazg.net",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
