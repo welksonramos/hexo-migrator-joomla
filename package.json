@@ -3,6 +3,10 @@
   "version": "2.0.0",
   "description": "Joomla migrator plugin for Hexo",
   "main": "index",
+  "scripts": {
+    "contrib:add": "all-contributors add",
+    "contrib:generate": "all-contributors generate"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/welksonramos/hexo-migrator-joomla.git"
@@ -16,15 +20,15 @@
     "joomla"
   ],
   "author": "Welkson Ramos <welksonr@hotmail.com>",
-  "license": {
-    "type": "MIT",
-    "url": "https://raw.github.com/welksonramos/hexo-migrator-joomla/master/LICENSE"
-  },
+  "license": "MIT",
   "dependencies": {
-    "async": "^1.4.2",
-    "entities": "^1.1.1",
-    "request": "^2.36.0",
+    "async": "^3.1.0",
+    "entities": "^2.0.0",
+    "request": "^2.88.0",
     "turndown": "^5.0.3",
-    "xml2js": "^0.4.2"
+    "xml2js": "^0.4.22"
+  },
+  "devDependencies": {
+    "all-contributors-cli": "^6.11.0"
   }
 }
