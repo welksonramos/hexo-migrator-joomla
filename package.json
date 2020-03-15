@@ -1,6 +1,6 @@
 {
   "name": "hexo-migrator-joomla",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Joomla migrator plugin for Hexo",
   "main": "index",
   "scripts": {
