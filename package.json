@@ -4,6 +4,9 @@
   "description": "Joomla migrator plugin for Hexo",
   "main": "index",
   "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix",
+    "test": "npm run lint",
     "contrib:add": "all-contributors add",
     "contrib:generate": "all-contributors generate"
   },
@@ -17,7 +20,8 @@
   "keywords": [
     "hexo",
     "migrator",
-    "joomla"
+    "joomla",
+    "joomla-migrator"
   ],
   "author": "Welkson Ramos <welksonr@hotmail.com>",
   "license": "MIT",
@@ -29,6 +33,8 @@
     "xml2js": "^0.4.23"
   },
   "devDependencies": {
-    "all-contributors-cli": "^6.11.0"
+    "@enuves/eslint-config": "^0.1.1",
+    "all-contributors-cli": "^6.11.0",
+    "eslint": "^7.22.0"
   }
 }
