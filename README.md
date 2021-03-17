@@ -1,8 +1,8 @@
 # hexo-joomla-migrator
 
-[![npm version](https://img.shields.io/npm/v/hexo-migrator-joomla.svg)](https://www.npmjs.com/package/hexo-migrator-joomla) [![depstatus](https://img.shields.io/david/welksonramos/hexo-migrator-joomla.svg)](https://david-dm.org/welksonramos/hexo-migrator-joomla) [![license](https://img.shields.io/npm/l/hexo-migrator-joomla.svg?style=flat)](https://raw.github.com/welksonramos/hexo-migrator-joomla/blob/master/LICENSE) [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![npm version](https://img.shields.io/npm/v/hexo-migrator-joomla.svg)](https://www.npmjs.com/package/hexo-migrator-joomla) [![depstatus](https://img.shields.io/david/welksonramos/hexo-migrator-joomla)](https://david-dm.org/welksonramos/hexo-migrator-joomla) [![license](https://img.shields.io/npm/l/hexo-migrator-joomla.svg?style=flat)](https://raw.github.com/welksonramos/hexo-migrator-joomla/blob/master/LICENSE) [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 
-> Migrate your blog from Joomla to [Hexo](https://hexo.io/).
+> Migrate your posts from Joomla to [Hexo](https://hexo.io/).
 
 ## Install
 
